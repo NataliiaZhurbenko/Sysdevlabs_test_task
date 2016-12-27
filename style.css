@@ -1,0 +1,164 @@
+body {
+	font-family: "Arail", sans-serif;
+	font-size: 12px;
+	color: grey;
+}
+
+button {
+	font-weight: bold;
+}
+
+#standard {
+	position: absolute; 
+	top: 0;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-weight: bold;
+}
+
+.shadow{
+	box-shadow: 5px 5px 4px 0 rgba(0,0,0,0.06),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.ico-style {
+	margin-right: 12px;
+	padding: 5px;
+	color: white;
+}
+
+.logo-image {
+	margin-right: 80px;
+	float: right;
+	margin-top: 35px;
+}
+
+.w3-twothird {
+	margin: 40px 0px 40px -50px;
+}
+
+.orange {
+	background-color: #d96824;
+}
+
+.blue {
+	background-color: #4177ae;
+}
+
+.light-blue {
+	background-color: #6590bc;
+}
+
+.dark-blue {
+	background-color: #4177ae;
+}
+
+.light-grey {
+	background-color: #f4f7f8;
+}
+
+.green {
+	background-color: #61a635;
+}
+
+.text-blue {
+	color: #0d55ab;
+}
+
+.text-turquoise {
+	color: #4ec8e9;
+}
+	
+.btn-blue {
+	background-color: #0d5592;
+}
+
+.requirements-description {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.op-syst-type {
+	padding-left: 4.5em;
+	padding-right: 4.5em;
+}
+
+@media screen and (min-width: 240px) and (max-width: 992px) {
+	.op-syst-type {
+		padding-left: 0.3em;
+		padding-right: 0.3em;
+	}
+	.op-syst-type p {
+		float: none !important;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 993px) {
+	.op-syst-type {
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.w3-twothird {
+		margin: 35px 0 35px 0px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	button {
+		padding-left: 4em;
+		padding-right: 4em;
+	}
+	
+	.op-syst-type {
+		padding-left: 2.2em;
+		padding-right: 2.2em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.logo-image {
+		float: none;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+}
+
+@media screen and (min-width: 671px) and (max-width: 992px) {
+	.logo-image {
+		margin-right: 0.5%;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.w3-btn {
+		padding: 4px 10px !important;
+	}
+	.logo-image {
+		margin-right: -20px;
+	}
+	.requirements-description {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	#menu span {
+		display: none;
+	}
+	#menu p, #menu .w3-btn {
+		font-size: 8px;
+	}
+	.w3-btn {
+		padding: 5px 3px !important;
+	}
+	button i {
+		margin-right: 1px !important;
+	}
+}
